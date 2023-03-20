@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-background: #424242;
+
+  /* Default Gaps */
+  --element-gap-normal: 5px;
+  --element-gap-bigger: 10px;
+
+  /* Home Page */
+  --color-fonts-title: #303030;
+
+  --color-background-change-button: #606060;
+  --color-background-change-button-hover: #808080;
+
+  /* Data Chart */
+  --color-humidity-line: #505050;
+  --color-humidity-background: rgba(150, 150, 150, 0);
+
+  /* Navbar */
+  --color-background-navbar: #303030;
+  --color-text-navbar: white;
+  --color-icon-navbar: white;
+  --color-divider-navbar: #909090;
+
+  --font-size-text-bottom: 11px;
+
+  /* TopBar */
+  --margin-top-navbar: 80px;
+  --padding-topbar: 0px 20px;
+
+  --margin-top-navbar-phone: calc(var(--margin-top-navbar) + 15px);
+
+  --color-background-topbar: #252525;
+  --color-font-topbar: white;
+
+  /* Settings */
+  --font-size-settings-buttons: 25px !important;
+
+  /* WifiForm */
+  --color-scanbutton-wifiform: #454545;
+  --color-networkname-wifiform: #252525;
+  --color-idchn-wifiform: #353535;
+  --color-elements-background: whitesmoke;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
